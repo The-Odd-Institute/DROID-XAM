@@ -1,0 +1,4 @@
+_Buttons.MainActivity, 01_Buttons;md5b8e96cbe2d41e97a302ed982bd399ccc.MainActivity
+_Buttons.MainActivity, 01_Buttons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b8e96cbe2d41e97a302ed982bd399ccc.MainActivity
+_Buttons.MainActivity;md5b8e96cbe2d41e97a302ed982bd399ccc.MainActivity
+_buttons.MainActivity;md5b8e96cbe2d41e97a302ed982bd399ccc.MainActivity

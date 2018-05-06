@@ -20,7 +20,7 @@ namespace _Buttons
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            Button tempButton = FindViewById<Button>(Resource.Id.);
+            Button tempButton = FindViewById<Button>(Resource.Id.myTempButton_id);
 
             tempButton.Click += ButtonClickedAction;
         }
