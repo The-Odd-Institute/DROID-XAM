@@ -65,7 +65,7 @@ namespace NavAndSegment
             mapButton = FindViewById<RadioButton>(Resource.Id.mapButton);
             listButton = FindViewById<RadioButton>(Resource.Id.listButton);
 
-			mapButton.Checked = true;
+			mapButton.Checked 
 
             mapListRadioGroup.CheckedChange += MapListRadioGroup_CheckedChanged;
 
