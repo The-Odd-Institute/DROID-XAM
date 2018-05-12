@@ -18,3 +18,6 @@
 /Users/Amir/Desktop/08 - FAIR FEES/DROID XAM/01_Buttons/01_Buttons/bin/Debug/Mono.Android.pdb
 /Users/Amir/Desktop/08 - FAIR FEES/DROID XAM/01_Buttons/01_Buttons/obj/Debug/linksrc/01_Buttons.pdb
 /Users/Amir/Desktop/08 - FAIR FEES/DROID XAM/01_Buttons/01_Buttons/obj/Debug/linksrc/Mono.Android.pdb
+/Users/sanjayshah/Documents/Apps/DROID-XAM/01_Buttons/01_Buttons/obj/Debug/01_Buttons.csprojResolveAssemblyReference.cache
+/Users/sanjayshah/Documents/Apps/DROID-XAM/01_Buttons/01_Buttons/obj/Debug/01_Buttons.dll
+/Users/sanjayshah/Documents/Apps/DROID-XAM/01_Buttons/01_Buttons/obj/Debug/01_Buttons.pdb
