@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMaps", "GMaps.csproj", "{C9D56EBF-0EC1-416E-B2BE-AAD76805CF69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapsUtility", "..\..\..\..\Downloads\XamarinGoogleMapClustering-master 2\GoogleMapsUtility\GoogleMapsUtility.csproj", "{F38A2B58-0051-4E72-ADF9-9305AD4274A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{C9D56EBF-0EC1-416E-B2BE-AAD76805CF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D56EBF-0EC1-416E-B2BE-AAD76805CF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D56EBF-0EC1-416E-B2BE-AAD76805CF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38A2B58-0051-4E72-ADF9-9305AD4274A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38A2B58-0051-4E72-ADF9-9305AD4274A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38A2B58-0051-4E72-ADF9-9305AD4274A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38A2B58-0051-4E72-ADF9-9305AD4274A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

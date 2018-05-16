@@ -1,9 +1,22 @@
 ﻿<Properties StartupConfiguration="{C9D56EBF-0EC1-416E-B2BE-AAD76805CF69}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="MainActivity.cs" Line="18" Column="7" />
+      <File FileName="MyMarker.cs" Line="42" Column="1" />
+      <File FileName="../../../../Downloads/XamarinGoogleMapClustering-master 2/GoogleMapsUtility/Properties/AndroidManifest.xml" Line="15" Column="12" />
+      <File FileName="GoogleDirectionClass.cs" Line="1" Column="1" />
+      <File FileName="../../../../Downloads/XamarinGoogleMapClustering-master 2/GoogleMapsUtility/Jars/AboutJars.txt" Line="37" Column="1" />
+      <File FileName="../../../../Downloads/XamarinGoogleMapClustering-master 2/GoogleMapsUtility/packages.config" Line="3" Column="1" />
+      <File FileName="packages.config" Line="1" Column="1" />
+      <File FileName="Properties/AndroidManifest.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.GMaps AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.GMaps AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/MainActivity.cs" relfile="MainActivity.cs" line="155" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
