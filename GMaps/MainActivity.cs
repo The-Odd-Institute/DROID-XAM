@@ -3,22 +3,35 @@ using Android.Widget;
 using Android.OS;
 using Android.Gms.Maps;
 using Android.Gms.Maps.Model;
+using Android.Util;
 using Android.Net.Http;
 using System.Net;
 using System;
 using Android.Locations;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Newtonsoft.Json; 
+using Newtonsoft.Json;
 using System.Linq;
 using Android;
-using System.IO;  
+using System.IO;
+//using Java.Lang;
+using Com.Google.Maps.Android.Clustering;
+
+//using Java.Lang;
+using Android.Runtime;
 
 namespace GMaps
 {
 	[Activity(Label = "GMaps", MainLauncher = true, Icon = "@mipmap/icon")]
-	public class MainActivity : Activity, IOnMapReadyCallback
+	public class MainActivity : Activity,ILocationListener, IOnMapReadyCallback, ClusterManager.IOnClusterClickListener, ClusterManager.IOnClusterItemClickListener
 	{
+
+
+		Location currentLocation;
+        LocationManager locationManager;
+        string locationProvider;
+
+		ClusterManager clusterManager;
 
 		private GoogleMap myMap;
 		LatLng latLngSource;
@@ -56,6 +69,8 @@ namespace GMaps
            
             fairviewCoordinates = new LatLng(49.262676, -123.133396);
             capilanoCoordinates = new LatLng(49.341072, -123.106519);
+
+			InitializeLocationManager();
             
 			SetupMap();
 
@@ -67,6 +82,28 @@ namespace GMaps
 			removeDirectionsButton = FindViewById<Button>(Resource.Id.RemoveDirectionsButton);
 			removeDirectionsButton.Click += RemoveDirectionsButton_Click;
 		}
+
+
+		void InitializeLocationManager()
+        {
+            locationManager = (LocationManager)GetSystemService(LocationService);
+            var criteriaForLocationService = new Criteria
+            {
+                Accuracy = Accuracy.Fine
+            };
+            IList<string> acceptableLocationProviders = locationManager.GetProviders(criteriaForLocationService, true);
+
+            if (acceptableLocationProviders.Any())
+            {
+                locationProvider = acceptableLocationProviders.First();
+            }
+            else
+            {
+                locationProvider = string.Empty;
+            }
+			Log.Debug("GoogleMapClustering", "Using " + locationProvider + ".");
+            locationManager?.RequestLocationUpdates(locationProvider, 0, 0, this);
+        }
 
 
 		private void SetupMap()
@@ -81,11 +118,11 @@ namespace GMaps
 		public void OnMapReady(GoogleMap googleMap)
 		{
 			myMap = googleMap;
-			AddMarkers();
+			SetupMapClustingDemo();
 		}
 
 
-        void AddMarkers()
+		void AddMarkers(Location location)
 		{
 			//for (int i = 0; i <= 10; i++)
             //{
@@ -97,13 +134,63 @@ namespace GMaps
             //  myMap.AddMarker(options);
 
             //}
-
+            
             MarkerOptions fairviewOptions = new MarkerOptions().SetPosition(fairviewCoordinates);
             myMap.AddMarker(fairviewOptions);
 
             MarkerOptions capilanoOptions = new MarkerOptions().SetPosition(capilanoCoordinates);
             myMap.AddMarker(capilanoOptions);
+
+
+			var items = new List<MyMarker>();
+
+            // Add current location to the cluster list
+			MarkerOptions currentMarker = new MarkerOptions();
+			LatLng me = new LatLng(currentLocation.Latitude, currentLocation.Longitude);
+            currentMarker.SetPosition(me);
+			CircleOptions meMarker = new CircleOptions();
+            meMarker.InvokeCenter(me);
+            meMarker.InvokeRadius(32);
+			meMarker.InvokeStrokeWidth(0);
+            meMarker.InvokeFillColor(GetColor(Android.Resource.Color.HoloBlueLight));
+			myMap.AddCircle(meMarker);
+			items.Add(new MyMarker(currentLocation.Latitude, currentLocation.Longitude));
+
+            // Create a log. spiral of markers to test clustering
+            for (int i = 0; i < 20; ++i)
+            {
+                var t = i * System.Math.PI * 0.33f;
+                var r = 0.005 * System.Math.Exp(0.1 * t);
+				var x = r * System.Math.Cos(t);
+				var y = r * System.Math.Sin(t);
+				items.Add(new MyMarker(currentLocation.Latitude + x, currentLocation.Longitude + y));
+            }
+            clusterManager.AddItems(items);
+
+            
+			//ClusterManager clusterManager = new ClusterManager(this, myMap);
+			//clusterManager.SetOnClusterClickListener(this);
+			//clusterManager.SetOnClusterItemClickListener(this);
+			//myMap.SetOnCameraChangeListener(clusterManager);
+			//myMap.SetOnMarkerClickListener(clusterManager);
+
+
 		}
+
+
+		public void SetupMapClustingDemo()
+        {
+			if (myMap == null || currentLocation == null) // Do we have a map and location avaialble?
+                return;
+			clusterManager = new ClusterManager(this, myMap);
+            clusterManager.SetOnClusterClickListener(this);
+            clusterManager.SetOnClusterItemClickListener(this);
+			//myMap.SetOnCameraMoveStartedListener(new GoogleMap.OnCameraMoveStartedListener());
+			              
+			myMap.SetOnMarkerClickListener(clusterManager);
+			UpdateCameraPosition(new LatLng(currentLocation.Latitude, currentLocation.Longitude));
+            AddMarkers(currentLocation);
+        }
 
 		void DirectionsButton_Click(object sender, System.EventArgs e)
 		{
@@ -119,18 +206,18 @@ namespace GMaps
 		LatLng GetMidpoint(LatLng source, LatLng destination)
 		{
 
-			Double lon1 = source.Longitude * Math.PI / 180;
-			Double lon2 = destination.Longitude * Math.PI / 180;
+			Double lon1 = source.Longitude * System.Math.PI / 180;
+			Double lon2 = destination.Longitude * System.Math.PI / 180;
             
-			Double lat1 = source.Latitude * Math.PI / 180;
-			Double lat2 = destination.Latitude * Math.PI / 180;
+			Double lat1 = source.Latitude * System.Math.PI / 180;
+			Double lat2 = destination.Latitude * System.Math.PI / 180;
 			Double dLon = lon2 - lon1;
-			Double x = Math.Cos(lat2) * Math.Cos(dLon);
-			Double y = Math.Cos(lat2) * Math.Sin(dLon);
+			Double x = System.Math.Cos(lat2) * Math.Cos(dLon);
+			Double y = System.Math.Cos(lat2) * Math.Sin(dLon);
 
 			Double lat3 = Math.Atan2(Math.Sin(lat1) + Math.Sin(lat2), Math.Sqrt((Math.Cos(lat1) + x) * (Math.Cos(lat1) + x) + y * y));
 			Double lon3 = lon1 + Math.Atan2(y, Math.Cos(lat1) + x);
-
+            
 			LatLng center = new LatLng(lat3 * 180 / Math.PI, lon3 * 180 / Math.PI);
 
 			return center;
@@ -143,7 +230,7 @@ namespace GMaps
 			if (myMap != null)
             {
                 myMap.Clear();
-				AddMarkers();
+				AddMarkers(currentLocation);
             }
 
 			directionsButton.Text = "Show Directions";
@@ -387,6 +474,62 @@ namespace GMaps
 
 			return strResultData;
 		}
+
+
+
+
+
+        //cluster methods
+		public bool OnClusterClick(ICluster cluster)
+        {
+            Toast.MakeText(this, cluster.Items.Count + " items in cluster", ToastLength.Short).Show();
+            return false;
+        }
+
+        public bool OnClusterItemClick(Java.Lang.Object marker)
+        {
+            Toast.MakeText(this, "Marker clicked", ToastLength.Short).Show();
+            return false;
+        }
+
+
+
+        //Location Manager methods
+		public void OnLocationChanged(Location location)
+        {
+			Log.Debug("GoogleMapClustering", "OnLocationChanged");
+            currentLocation = location;
+            if (currentLocation == null)
+            {
+                Toast.MakeText(BaseContext, "Unable to determine your location, using Seattle", ToastLength.Long).Show();
+                currentLocation = new Location(string.Empty)
+                {
+                    Latitude = 47.59978,
+                    Longitude = -122.3346
+                };
+            }
+            locationManager.RemoveUpdates(this); // just a one-shot location update for this demo
+            SetupMapClustingDemo();
+        }
+
+        public void OnProviderDisabled(string provider)
+        {
+			Log.Debug("GoogleMapClustering", "OnProviderDisabled");
+        }
+
+        public void OnProviderEnabled(string provider)
+        {
+			Log.Debug("GoogleMapClustering", "OnProviderEnabled");
+        }
+
+	
+		public void OnStatusChanged(string provider, [GeneratedEnum] Availability status, Bundle extras)
+        {
+			Log.Debug("GoogleMapClustering", "OnStatusChanged");
+            locationManager?.RemoveUpdates(this);
+        }
+      
+
 	}
 }
       

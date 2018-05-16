@@ -107,7 +107,6 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "GMaps.dll" comes first in this list. */
 		"GMaps.dll",
-		"GoogleMapsUtilityBinding.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -125,6 +124,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
+		"GoogleMapsUtilityBinding.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

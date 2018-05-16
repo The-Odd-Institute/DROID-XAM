@@ -215,8 +215,8 @@ namespace GMaps
 			// aapt resource value: 2130968617
 			public static int alphabeticModifiers = 2130968617;
 			
-			// aapt resource value: 2130771987
-			public static int ambientEnabled = 2130771987;
+			// aapt resource value: 1
+			public static int ambientEnabled = 1;
 			
 			// aapt resource value: 1
 			public static int appTheme = 1;
@@ -287,8 +287,8 @@ namespace GMaps
 			// aapt resource value: 2130968639
 			public static int buttonPanelSideLayout = 2130968639;
 			
-			// aapt resource value: 2130771994
-			public static int buttonSize = 2130771994;
+			// aapt resource value: 0
+			public static int buttonSize = 0;
 			
 			// aapt resource value: 2130968640
 			public static int buttonStyle = 2130968640;
@@ -314,26 +314,26 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int buyButtonWidth = 1;
 			
-			// aapt resource value: 2130771972
-			public static int cameraBearing = 2130771972;
+			// aapt resource value: 1
+			public static int cameraBearing = 1;
 			
-			// aapt resource value: 2130771989
-			public static int cameraMaxZoomPreference = 2130771989;
+			// aapt resource value: 1
+			public static int cameraMaxZoomPreference = 1;
 			
-			// aapt resource value: 2130771988
-			public static int cameraMinZoomPreference = 2130771988;
+			// aapt resource value: 1
+			public static int cameraMinZoomPreference = 1;
 			
-			// aapt resource value: 2130771973
-			public static int cameraTargetLat = 2130771973;
+			// aapt resource value: 1
+			public static int cameraTargetLat = 1;
 			
-			// aapt resource value: 2130771974
-			public static int cameraTargetLng = 2130771974;
+			// aapt resource value: 1
+			public static int cameraTargetLng = 1;
 			
-			// aapt resource value: 2130771975
-			public static int cameraTilt = 2130771975;
+			// aapt resource value: 1
+			public static int cameraTilt = 1;
 			
-			// aapt resource value: 2130771976
-			public static int cameraZoom = 2130771976;
+			// aapt resource value: 1
+			public static int cameraZoom = 1;
 			
 			// aapt resource value: 1
 			public static int castBackground = 1;
@@ -431,8 +431,8 @@ namespace GMaps
 			// aapt resource value: 2130968645
 			public static int checkedTextViewStyle = 2130968645;
 			
-			// aapt resource value: 2130771970
-			public static int circleCrop = 2130771970;
+			// aapt resource value: 0
+			public static int circleCrop = 0;
 			
 			// aapt resource value: 2130968646
 			public static int closeIcon = 2130968646;
@@ -476,8 +476,8 @@ namespace GMaps
 			// aapt resource value: 2130968659
 			public static int colorPrimaryDark = 2130968659;
 			
-			// aapt resource value: 2130771995
-			public static int colorScheme = 2130771995;
+			// aapt resource value: 0
+			public static int colorScheme = 0;
 			
 			// aapt resource value: 2130968660
 			public static int colorSwitchThumbNormal = 2130968660;
@@ -656,11 +656,11 @@ namespace GMaps
 			// aapt resource value: 2130968706
 			public static int iconTintMode = 2130968706;
 			
-			// aapt resource value: 2130771969
-			public static int imageAspectRatio = 2130771969;
+			// aapt resource value: 0
+			public static int imageAspectRatio = 0;
 			
-			// aapt resource value: 2130771968
-			public static int imageAspectRatioAdjust = 2130771968;
+			// aapt resource value: 0
+			public static int imageAspectRatioAdjust = 0;
 			
 			// aapt resource value: 2130968708
 			public static int imageButtonStyle = 2130968708;
@@ -683,17 +683,17 @@ namespace GMaps
 			// aapt resource value: 2130968712
 			public static int itemPadding = 2130968712;
 			
-			// aapt resource value: 2130771992
-			public static int latLngBoundsNorthEastLatitude = 2130771992;
+			// aapt resource value: 1
+			public static int latLngBoundsNorthEastLatitude = 1;
 			
-			// aapt resource value: 2130771993
-			public static int latLngBoundsNorthEastLongitude = 2130771993;
+			// aapt resource value: 1
+			public static int latLngBoundsNorthEastLongitude = 1;
 			
-			// aapt resource value: 2130771990
-			public static int latLngBoundsSouthWestLatitude = 2130771990;
+			// aapt resource value: 1
+			public static int latLngBoundsSouthWestLatitude = 1;
 			
-			// aapt resource value: 2130771991
-			public static int latLngBoundsSouthWestLongitude = 2130771991;
+			// aapt resource value: 1
+			public static int latLngBoundsSouthWestLongitude = 1;
 			
 			// aapt resource value: 2130968713
 			public static int layout = 2130968713;
@@ -731,8 +731,8 @@ namespace GMaps
 			// aapt resource value: 2130968724
 			public static int listPreferredItemPaddingRight = 2130968724;
 			
-			// aapt resource value: 2130771977
-			public static int liteMode = 2130771977;
+			// aapt resource value: 1
+			public static int liteMode = 1;
 			
 			// aapt resource value: 2130968725
 			public static int logo = 2130968725;
@@ -740,8 +740,8 @@ namespace GMaps
 			// aapt resource value: 2130968726
 			public static int logoDescription = 2130968726;
 			
-			// aapt resource value: 2130771971
-			public static int mapType = 2130771971;
+			// aapt resource value: 1
+			public static int mapType = 1;
 			
 			// aapt resource value: 1
 			public static int maskedWalletDetailsBackground = 1;
@@ -863,8 +863,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int schemaOrgType = 1;
 			
-			// aapt resource value: 2130771996
-			public static int scopeUris = 2130771996;
+			// aapt resource value: 0
+			public static int scopeUris = 0;
 			
 			// aapt resource value: 1
 			public static int searchEnabled = 1;
@@ -1109,26 +1109,26 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int trimmable = 1;
 			
-			// aapt resource value: 2130771978
-			public static int uiCompass = 2130771978;
+			// aapt resource value: 1
+			public static int uiCompass = 1;
 			
-			// aapt resource value: 2130771986
-			public static int uiMapToolbar = 2130771986;
+			// aapt resource value: 1
+			public static int uiMapToolbar = 1;
 			
-			// aapt resource value: 2130771979
-			public static int uiRotateGestures = 2130771979;
+			// aapt resource value: 1
+			public static int uiRotateGestures = 1;
 			
-			// aapt resource value: 2130771980
-			public static int uiScrollGestures = 2130771980;
+			// aapt resource value: 1
+			public static int uiScrollGestures = 1;
 			
-			// aapt resource value: 2130771981
-			public static int uiTiltGestures = 2130771981;
+			// aapt resource value: 1
+			public static int uiTiltGestures = 1;
 			
-			// aapt resource value: 2130771982
-			public static int uiZoomControls = 2130771982;
+			// aapt resource value: 1
+			public static int uiZoomControls = 1;
 			
-			// aapt resource value: 2130771983
-			public static int uiZoomGestures = 2130771983;
+			// aapt resource value: 1
+			public static int uiZoomGestures = 1;
 			
 			// aapt resource value: 1
 			public static int userInputSection = 1;
@@ -1139,8 +1139,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int userInputValue = 1;
 			
-			// aapt resource value: 2130771984
-			public static int useViewLifecycle = 2130771984;
+			// aapt resource value: 1
+			public static int useViewLifecycle = 1;
 			
 			// aapt resource value: 2130968821
 			public static int voiceIcon = 2130968821;
@@ -1178,8 +1178,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int windowTransitionStyle = 1;
 			
-			// aapt resource value: 2130771985
-			public static int zOrderOnTop = 2130771985;
+			// aapt resource value: 1
+			public static int zOrderOnTop = 1;
 			
 			static Attribute()
 			{
@@ -1369,35 +1369,35 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int cast_libraries_material_featurehighlight_text_header_color = 1;
 			
-			// aapt resource value: 2131099656
-			public static int common_google_signin_btn_text_dark = 2131099656;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark = 0;
 			
-			// aapt resource value: 2131099648
-			public static int common_google_signin_btn_text_dark_default = 2131099648;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark_default = 0;
 			
-			// aapt resource value: 2131099649
-			public static int common_google_signin_btn_text_dark_disabled = 2131099649;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark_disabled = 0;
 			
-			// aapt resource value: 2131099650
-			public static int common_google_signin_btn_text_dark_focused = 2131099650;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark_focused = 0;
 			
-			// aapt resource value: 2131099651
-			public static int common_google_signin_btn_text_dark_pressed = 2131099651;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark_pressed = 0;
 			
-			// aapt resource value: 2131099657
-			public static int common_google_signin_btn_text_light = 2131099657;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light = 0;
 			
-			// aapt resource value: 2131099652
-			public static int common_google_signin_btn_text_light_default = 2131099652;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light_default = 0;
 			
-			// aapt resource value: 2131099653
-			public static int common_google_signin_btn_text_light_disabled = 2131099653;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light_disabled = 0;
 			
-			// aapt resource value: 2131099654
-			public static int common_google_signin_btn_text_light_focused = 2131099654;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light_focused = 0;
 			
-			// aapt resource value: 2131099655
-			public static int common_google_signin_btn_text_light_pressed = 2131099655;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light_pressed = 0;
 			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_tint = 0;
@@ -2322,12 +2322,6 @@ namespace GMaps
 			// aapt resource value: 2131296339
 			public static int abc_vector_test = 2131296339;
 			
-			// aapt resource value: 2130837504
-			public static int amu_bubble_mask = 2130837504;
-			
-			// aapt resource value: 2130837505
-			public static int amu_bubble_shadow = 2130837505;
-			
 			// aapt resource value: 1
 			public static int cast_abc_scrubber_control_off_mtrl_alpha = 1;
 			
@@ -2490,89 +2484,62 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 2130837506
-			public static int common_full_open_on_phone = 2130837506;
+			// aapt resource value: 0
+			public static int common_full_open_on_phone = 0;
 			
-			// aapt resource value: 2130837507
-			public static int common_google_signin_btn_icon_dark = 2130837507;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_icon_dark = 0;
 			
-			// aapt resource value: 2130837508
-			public static int common_google_signin_btn_icon_dark_disabled = 2130837508;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_icon_dark_focused = 0;
 			
-			// aapt resource value: 2130837509
-			public static int common_google_signin_btn_icon_dark_focused = 2130837509;
-			
-			// aapt resource value: 2130837510
-			public static int common_google_signin_btn_icon_dark_normal = 2130837510;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_icon_dark_normal = 0;
 			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_icon_dark_normal_background = 0;
 			
-			// aapt resource value: 2130837511
-			public static int common_google_signin_btn_icon_dark_pressed = 2130837511;
-			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_icon_disabled = 0;
 			
-			// aapt resource value: 2130837512
-			public static int common_google_signin_btn_icon_light = 2130837512;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_icon_light = 0;
 			
-			// aapt resource value: 2130837513
-			public static int common_google_signin_btn_icon_light_disabled = 2130837513;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_icon_light_focused = 0;
 			
-			// aapt resource value: 2130837514
-			public static int common_google_signin_btn_icon_light_focused = 2130837514;
-			
-			// aapt resource value: 2130837515
-			public static int common_google_signin_btn_icon_light_normal = 2130837515;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_icon_light_normal = 0;
 			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_icon_light_normal_background = 0;
 			
-			// aapt resource value: 2130837516
-			public static int common_google_signin_btn_icon_light_pressed = 2130837516;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark = 0;
 			
-			// aapt resource value: 2130837517
-			public static int common_google_signin_btn_text_dark = 2130837517;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark_focused = 0;
 			
-			// aapt resource value: 2130837518
-			public static int common_google_signin_btn_text_dark_disabled = 2130837518;
-			
-			// aapt resource value: 2130837519
-			public static int common_google_signin_btn_text_dark_focused = 2130837519;
-			
-			// aapt resource value: 2130837520
-			public static int common_google_signin_btn_text_dark_normal = 2130837520;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_dark_normal = 0;
 			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_text_dark_normal_background = 0;
 			
-			// aapt resource value: 2130837521
-			public static int common_google_signin_btn_text_dark_pressed = 2130837521;
-			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_text_disabled = 0;
 			
-			// aapt resource value: 2130837522
-			public static int common_google_signin_btn_text_light = 2130837522;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light = 0;
 			
-			// aapt resource value: 2130837523
-			public static int common_google_signin_btn_text_light_disabled = 2130837523;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light_focused = 0;
 			
-			// aapt resource value: 2130837524
-			public static int common_google_signin_btn_text_light_focused = 2130837524;
-			
-			// aapt resource value: 2130837525
-			public static int common_google_signin_btn_text_light_normal = 2130837525;
+			// aapt resource value: 0
+			public static int common_google_signin_btn_text_light_normal = 0;
 			
 			// aapt resource value: 0
 			public static int common_google_signin_btn_text_light_normal_background = 0;
-			
-			// aapt resource value: 2130837526
-			public static int common_google_signin_btn_text_light_pressed = 2130837526;
-			
-			// aapt resource value: 2130837527
-			public static int common_ic_googleplayservices = 2130837527;
 			
 			// aapt resource value: 0
 			public static int googleg_disabled_color_18 = 0;
@@ -2845,11 +2812,11 @@ namespace GMaps
 			// aapt resource value: 2131492884
 			public static int add = 2131492884;
 			
-			// aapt resource value: 2131165185
-			public static int adjust_height = 2131165185;
+			// aapt resource value: 0
+			public static int adjust_height = 0;
 			
-			// aapt resource value: 2131165186
-			public static int adjust_width = 2131165186;
+			// aapt resource value: 0
+			public static int adjust_width = 0;
 			
 			// aapt resource value: 1
 			public static int ad_container = 1;
@@ -2865,9 +2832,6 @@ namespace GMaps
 			
 			// aapt resource value: 2131492885
 			public static int alertTitle = 2131492885;
-			
-			// aapt resource value: 2131165184
-			public static int amu_text = 2131165184;
 			
 			// aapt resource value: 1
 			public static int android_pay = 1;
@@ -2890,8 +2854,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int audio_list_view = 1;
 			
-			// aapt resource value: 2131165195
-			public static int auto = 2131165195;
+			// aapt resource value: 0
+			public static int auto = 0;
 			
 			// aapt resource value: 1
 			public static int background_image_view = 1;
@@ -3019,8 +2983,8 @@ namespace GMaps
 			// aapt resource value: 2131492893
 			public static int customPanel = 2131492893;
 			
-			// aapt resource value: 2131165196
-			public static int dark = 2131165196;
+			// aapt resource value: 0
+			public static int dark = 0;
 			
 			// aapt resource value: 1
 			public static int date = 1;
@@ -3094,8 +3058,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int html = 1;
 			
-			// aapt resource value: 2131165188
-			public static int hybrid = 2131165188;
+			// aapt resource value: 1
+			public static int hybrid = 1;
 			
 			// aapt resource value: 2131492874
 			public static int icon = 2131492874;
@@ -3103,8 +3067,8 @@ namespace GMaps
 			// aapt resource value: 2131492875
 			public static int icon_group = 2131492875;
 			
-			// aapt resource value: 2131165192
-			public static int icon_only = 2131165192;
+			// aapt resource value: 0
+			public static int icon_only = 0;
 			
 			// aapt resource value: 1
 			public static int icon_uri = 1;
@@ -3157,8 +3121,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int license_list = 1;
 			
-			// aapt resource value: 2131165197
-			public static int light = 2131165197;
+			// aapt resource value: 0
+			public static int light = 0;
 			
 			// aapt resource value: 2131492878
 			public static int line1 = 2131492878;
@@ -3205,11 +3169,11 @@ namespace GMaps
 			// aapt resource value: 2131492911
 			public static int multiply = 2131492911;
 			
-			// aapt resource value: 2131165187
-			public static int none = 2131165187;
+			// aapt resource value: 2131492912
+			public static int none = 2131492912;
 			
-			// aapt resource value: 2131165189
-			public static int normal = 2131165189;
+			// aapt resource value: 2131492880
+			public static int normal = 2131492880;
 			
 			// aapt resource value: 2131492881
 			public static int notification_background = 2131492881;
@@ -3289,8 +3253,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int sandbox = 1;
 			
-			// aapt resource value: 2131165190
-			public static int satellite = 2131165190;
+			// aapt resource value: 1
+			public static int satellite = 1;
 			
 			// aapt resource value: 2131492923
 			public static int screen = 2131492923;
@@ -3370,8 +3334,8 @@ namespace GMaps
 			// aapt resource value: 2131492943
 			public static int src_over = 2131492943;
 			
-			// aapt resource value: 2131165193
-			public static int standard = 2131165193;
+			// aapt resource value: 0
+			public static int standard = 0;
 			
 			// aapt resource value: 1
 			public static int start_text = 1;
@@ -3403,8 +3367,8 @@ namespace GMaps
 			// aapt resource value: 2131492886
 			public static int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 2131165191
-			public static int terrain = 2131165191;
+			// aapt resource value: 1
+			public static int terrain = 1;
 			
 			// aapt resource value: 1
 			public static int test = 1;
@@ -3463,14 +3427,8 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int url = 1;
 			
-			// aapt resource value: 2131165199
-			public static int webview = 2131165199;
-			
-			// aapt resource value: 2131165194
-			public static int wide = 2131165194;
-			
-			// aapt resource value: 2131165198
-			public static int window = 2131165198;
+			// aapt resource value: 0
+			public static int wide = 0;
 			
 			// aapt resource value: 2131492959
 			public static int wrap_content = 2131492959;
@@ -3503,8 +3461,8 @@ namespace GMaps
 			// aapt resource value: 2131558404
 			public static int config_tooltipAnimTime = 2131558404;
 			
-			// aapt resource value: 2131230720
-			public static int google_play_services_version = 2131230720;
+			// aapt resource value: 1
+			public static int google_play_services_version = 1;
 			
 			// aapt resource value: 2131558401
 			public static int status_bar_notification_info_maxnum = 2131558401;
@@ -3599,15 +3557,6 @@ namespace GMaps
 			
 			// aapt resource value: 2131689498
 			public static int abc_select_dialog_material = 2131689498;
-			
-			// aapt resource value: 2130903040
-			public static int amu_info_window = 2130903040;
-			
-			// aapt resource value: 2130903041
-			public static int amu_text_bubble = 2130903041;
-			
-			// aapt resource value: 2130903042
-			public static int amu_webview = 2130903042;
 			
 			// aapt resource value: 1
 			public static int cast_expanded_controller_activity = 1;
@@ -3956,68 +3905,56 @@ namespace GMaps
 			// aapt resource value: 1
 			public static int cast_unmute = 1;
 			
-			// aapt resource value: 2131034112
-			public static int common_google_play_services_enable_button = 2131034112;
+			// aapt resource value: 0
+			public static int common_google_play_services_enable_button = 0;
 			
-			// aapt resource value: 2131034113
-			public static int common_google_play_services_enable_text = 2131034113;
+			// aapt resource value: 0
+			public static int common_google_play_services_enable_text = 0;
 			
-			// aapt resource value: 2131034114
-			public static int common_google_play_services_enable_title = 2131034114;
+			// aapt resource value: 0
+			public static int common_google_play_services_enable_title = 0;
 			
-			// aapt resource value: 2131034115
-			public static int common_google_play_services_install_button = 2131034115;
+			// aapt resource value: 0
+			public static int common_google_play_services_install_button = 0;
 			
 			// aapt resource value: 0
 			public static int common_google_play_services_install_text = 0;
 			
-			// aapt resource value: 2131034116
-			public static int common_google_play_services_install_text_phone = 2131034116;
+			// aapt resource value: 0
+			public static int common_google_play_services_install_title = 0;
 			
-			// aapt resource value: 2131034117
-			public static int common_google_play_services_install_text_tablet = 2131034117;
+			// aapt resource value: 0
+			public static int common_google_play_services_notification_ticker = 0;
 			
-			// aapt resource value: 2131034118
-			public static int common_google_play_services_install_title = 2131034118;
+			// aapt resource value: 1
+			public static int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 2131034119
-			public static int common_google_play_services_notification_ticker = 2131034119;
+			// aapt resource value: 0
+			public static int common_google_play_services_unsupported_text = 0;
 			
-			// aapt resource value: 2131034120
-			public static int common_google_play_services_unknown_issue = 2131034120;
+			// aapt resource value: 0
+			public static int common_google_play_services_update_button = 0;
 			
-			// aapt resource value: 2131034121
-			public static int common_google_play_services_unsupported_text = 2131034121;
+			// aapt resource value: 0
+			public static int common_google_play_services_update_text = 0;
 			
-			// aapt resource value: 2131034122
-			public static int common_google_play_services_unsupported_title = 2131034122;
+			// aapt resource value: 0
+			public static int common_google_play_services_update_title = 0;
 			
-			// aapt resource value: 2131034123
-			public static int common_google_play_services_update_button = 2131034123;
+			// aapt resource value: 0
+			public static int common_google_play_services_updating_text = 0;
 			
-			// aapt resource value: 2131034124
-			public static int common_google_play_services_update_text = 2131034124;
+			// aapt resource value: 0
+			public static int common_google_play_services_wear_update_text = 0;
 			
-			// aapt resource value: 2131034125
-			public static int common_google_play_services_update_title = 2131034125;
+			// aapt resource value: 0
+			public static int common_open_on_phone = 0;
 			
-			// aapt resource value: 2131034126
-			public static int common_google_play_services_updating_text = 2131034126;
+			// aapt resource value: 0
+			public static int common_signin_button_text = 0;
 			
-			// aapt resource value: 2131034127
-			public static int common_google_play_services_updating_title = 2131034127;
-			
-			// aapt resource value: 2131034128
-			public static int common_google_play_services_wear_update_text = 2131034128;
-			
-			// aapt resource value: 2131034129
-			public static int common_open_on_phone = 2131034129;
-			
-			// aapt resource value: 2131034130
-			public static int common_signin_button_text = 2131034130;
-			
-			// aapt resource value: 2131034131
-			public static int common_signin_button_text_long = 2131034131;
+			// aapt resource value: 0
+			public static int common_signin_button_text_long = 0;
 			
 			// aapt resource value: 1
 			public static int fcm_fallback_notification_channel_label = 1;
@@ -4100,15 +4037,6 @@ namespace GMaps
 			
 			// aapt resource value: 2132148226
 			public static int AlertDialog_AppCompat_Light = 2132148226;
-			
-			// aapt resource value: 2131296256
-			public static int amu_Bubble_TextAppearance_Dark = 2131296256;
-			
-			// aapt resource value: 2131296257
-			public static int amu_Bubble_TextAppearance_Light = 2131296257;
-			
-			// aapt resource value: 2131296258
-			public static int amu_ClusterIcon_TextAppearance = 2131296258;
 			
 			// aapt resource value: 2132148227
 			public static int Animation_AppCompat_Dialog = 2132148227;
@@ -6496,43 +6424,43 @@ namespace GMaps
 			public static int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
 			public static int[] LoadingImageView = new int[] {
-					2130771968,
-					2130771969,
-					2130771970};
+					0,
+					0,
+					0};
 			
-			// aapt resource value: 2
-			public static int LoadingImageView_circleCrop = 2;
+			// aapt resource value: 0
+			public static int LoadingImageView_circleCrop = 0;
 			
-			// aapt resource value: 1
-			public static int LoadingImageView_imageAspectRatio = 1;
+			// aapt resource value: 0
+			public static int LoadingImageView_imageAspectRatio = 0;
 			
 			// aapt resource value: 0
 			public static int LoadingImageView_imageAspectRatioAdjust = 0;
 			
 			public static int[] MapAttrs = new int[] {
-					2130771971,
-					2130771972,
-					2130771973,
-					2130771974,
-					2130771975,
-					2130771976,
-					2130771977,
-					2130771978,
-					2130771979,
-					2130771980,
-					2130771981,
-					2130771982,
-					2130771983,
-					2130771984,
-					2130771985,
-					2130771986,
-					2130771987,
-					2130771988,
-					2130771989,
-					2130771990,
-					2130771991,
-					2130771992,
-					2130771993};
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
 			
 			// aapt resource value: 22
 			public static int MapAttrs_ambientEnabled = 22;
@@ -6898,18 +6826,18 @@ namespace GMaps
 			public static int Section_subsectionSeparator = 5;
 			
 			public static int[] SignInButton = new int[] {
-					2130771994,
-					2130771995,
-					2130771996};
+					0,
+					0,
+					0};
 			
 			// aapt resource value: 0
 			public static int SignInButton_buttonSize = 0;
 			
-			// aapt resource value: 1
-			public static int SignInButton_colorScheme = 1;
+			// aapt resource value: 0
+			public static int SignInButton_colorScheme = 0;
 			
-			// aapt resource value: 2
-			public static int SignInButton_scopeUris = 2;
+			// aapt resource value: 0
+			public static int SignInButton_scopeUris = 0;
 			
 			public static int[] Spinner = new int[] {
 					16843362,
