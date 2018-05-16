@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Change Activity Bg to blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeBgColorToBlue" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeBgColorToOrange"
+        android:text="Change Acitivity BG To Orange" />
+    <Button
+        android:text="Half Fragment Frame Width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeFrameButton" />
+</LinearLayout>
