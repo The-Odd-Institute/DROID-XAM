@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{8659EAA1-0D4C-45CA-961C-A504BC3A42F5}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ImageViewPager AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.AppCompat.Light" />
+  <MultiItemStartupConfigurations />
+</Properties>
