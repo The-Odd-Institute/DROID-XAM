@@ -53,7 +53,7 @@ namespace NavAndSegment
 
             StartActivity(intent);
 
-            OverridePendingTransition(Resource.Animation.slide_from_right, Resource.Animation.slide_to_left);
+            OverridePendingTransition(Resource.Animation.activity_slide_from_right, Resource.Animation.activity_slide_to_left);
 
 
         }
@@ -65,7 +65,7 @@ namespace NavAndSegment
             mapButton = FindViewById<RadioButton>(Resource.Id.mapButton);
             listButton = FindViewById<RadioButton>(Resource.Id.listButton);
 
-			mapButton.Checked 
+			mapButton.Checked = true;
 
             mapListRadioGroup.CheckedChange += MapListRadioGroup_CheckedChanged;
 

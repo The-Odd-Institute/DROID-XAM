@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{99AF2661-FD32-4AD8-A189-9704EAF300D0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ThirdFragment.cs">
     <Files>
-      <File FileName="MainActivity.cs" Line="33" Column="80" />
-      <File FileName="SecondActivity.cs" Line="42" Column="5" />
+      <File FileName="MainActivity.cs" Line="62" Column="36" />
+      <File FileName="SecondActivity.cs" Line="96" Column="15" />
+      <File FileName="SecondFragment.cs" Line="33" Column="4" />
+      <File FileName="ThirdFragment.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

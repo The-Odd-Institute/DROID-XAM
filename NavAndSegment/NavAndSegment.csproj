@@ -84,6 +84,8 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondActivity.cs" />
+    <Compile Include="SecondFragment.cs" />
+    <Compile Include="ThirdFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -98,12 +100,18 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
-    <AndroidResource Include="Resources\layout\Second.axml" />
+    <AndroidResource Include="Resources\layout\SecondActivity.axml" />
     <AndroidResource Include="Resources\layout\Main.axml" />
-    <AndroidResource Include="Resources\anim\slide_from_left.xml" />
-    <AndroidResource Include="Resources\anim\slide_from_right.xml" />
-    <AndroidResource Include="Resources\anim\slide_to_left.xml" />
-    <AndroidResource Include="Resources\anim\slide_to_right.xml" />
+    <AndroidResource Include="Resources\anim\activity_slide_from_left.xml" />
+    <AndroidResource Include="Resources\anim\activity_slide_from_right.xml" />
+    <AndroidResource Include="Resources\anim\activity_slide_to_left.xml" />
+    <AndroidResource Include="Resources\anim\activity_slide_to_right.xml" />
+    <AndroidResource Include="Resources\layout\Fragment2.axml" />
+    <AndroidResource Include="Resources\layout\Fragment3.axml" />
+    <AndroidResource Include="Resources\anim\fragment_enter_from_left.xml" />
+    <AndroidResource Include="Resources\anim\fragment_enter_from_right.xml" />
+    <AndroidResource Include="Resources\anim\fragment_exit_from_left.xml" />
+    <AndroidResource Include="Resources\anim\fragment_exit_from_right.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
