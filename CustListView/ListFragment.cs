@@ -25,7 +25,6 @@ namespace CustListView
 
 		List<string> namesArray;
 		LinearLayout linearLayout;
-		Context theContext;
 		ArrayAdapter<string> arrayAdapter;
 		public FrameLayout frameLayout;
 		SwipeMenuListView listView;
@@ -42,8 +41,6 @@ namespace CustListView
 		{
 			base.OnAttach(context);
 
-			theContext = context;
-         
 		}
 
 
@@ -70,9 +67,8 @@ namespace CustListView
             refresher.SetColorSchemeColors(Color.DarkBlue,
                                      Color.Purple,
                                      Color.Gray,
-                                      Color.Green);
-
-
+                                     Color.Green);
+            
             refresher.Refresh += Refresher_Refresh;
          
 			return view;
@@ -111,10 +107,6 @@ namespace CustListView
 					{
 						DeleteItemAlert(position);
 					}
-					else
-					{
-
-					}
                    
 					break;
 			}
@@ -128,7 +120,6 @@ namespace CustListView
         //AlertDialog
 		void DeleteItemAlert(int position)
 		{
-
 			string toRemove = namesArray[position];
 
 			AlertDialog.Builder alert = new AlertDialog.Builder(this.Activity);
@@ -144,23 +135,13 @@ namespace CustListView
 
 		}
 
-        //STRINGS ARENT BEING DELETED FOR SOME REASON!!!
+
 		void DeleteString(string inpString)
 		{
-			//arrayAdapte
-			//e.View.Animate()
-			//.SetDuration(750)
-			//.Alpha(0)
-			//.WithEndAction(new Java.Lang.Runnable(() => {
-        
-           
-			namesArray.Remove(inpString);
+        	namesArray.Remove(inpString);
 
 			arrayAdapter.NotifyDataSetChanged();
-         
-			//    e.View.Alpha = 1;
-			//}));
-            
+  
 		}
         
         void DeactivateString(int position)
@@ -171,14 +152,7 @@ namespace CustListView
 
 
 
-
-
-
-
-
-
-
-
+      
 
         //SnapToRow stuff
 		public class ScrollListener : Java.Lang.Object, AbsListView.IOnScrollListener
@@ -206,8 +180,7 @@ namespace CustListView
                          }
             }
 
-			private void SmoothScrollDeferred(int scrollByF,
-                   ListView viewF)
+			private void SmoothScrollDeferred(int scrollByF, ListView viewF)
             {
               Handler h = new Handler();
               h.Post(() =>

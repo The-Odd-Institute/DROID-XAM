@@ -60,8 +60,7 @@ namespace AlertDialog
             
 			Button cancelButton = view.FindViewById<Button>(Resource.Id.cancelButton);
             cancelButton.Click += CancelButton_Click;
-          
-
+              
 			return view;
 
         }

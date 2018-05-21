@@ -16,7 +16,6 @@ namespace KeyboardDismissal
         {
             base.OnCreate(savedInstanceState);
             
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
          
             Button button = FindViewById<Button>(Resource.Id.button);
@@ -24,7 +23,6 @@ namespace KeyboardDismissal
             
 			EditText bottom = FindViewById<EditText>(Resource.Id.editText1);
 			bottom.OnFocusChangeListener = this;
-
 
 			EditText top = FindViewById<EditText>(Resource.Id.editText2);
 			top.OnFocusChangeListener = this;
@@ -57,10 +55,7 @@ namespace KeyboardDismissal
 				imm.HideSoftInputFromWindow(view.WindowToken, 0);
             }
         }
-        
-
-              
-      
+  
 	}
 }
 

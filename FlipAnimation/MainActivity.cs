@@ -25,14 +25,13 @@ namespace FlipAnimation
 
             
 			fragmentFrame = FindViewById<FrameLayout>(Resource.Id.frameLayout);
-
-
-            //present register first
+            
+            //present registerFragment first
 			RegisterFragment registerFragment = new RegisterFragment();
 
             FragmentManager.BeginTransaction()
 			               .Add(Resource.Id.frameLayout, registerFragment, "frag")
-              .Commit();
+                           .Commit();
 
 			showingRegister = true;
         }

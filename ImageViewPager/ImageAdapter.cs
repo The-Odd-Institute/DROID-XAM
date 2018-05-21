@@ -56,15 +56,6 @@ namespace ImageViewPager
             this.context = context;
             
         }
-
-
-
-    
-        //public ImageAdapter()
-        //{
-
-            
-
-        //}
+        
     }
 }

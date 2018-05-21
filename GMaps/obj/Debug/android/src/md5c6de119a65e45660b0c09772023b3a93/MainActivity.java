@@ -6,9 +6,7 @@ public class MainActivity
 	implements
 		mono.android.IGCUserPeer,
 		android.location.LocationListener,
-		com.google.android.gms.maps.OnMapReadyCallback,
-		com.google.maps.android.clustering.ClusterManager.OnClusterClickListener,
-		com.google.maps.android.clustering.ClusterManager.OnClusterItemClickListener
+		com.google.android.gms.maps.OnMapReadyCallback
 {
 /** @hide */
 	public static final String __md_methods;
@@ -20,8 +18,6 @@ public class MainActivity
 			"n_onProviderEnabled:(Ljava/lang/String;)V:GetOnProviderEnabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onStatusChanged:(Ljava/lang/String;ILandroid/os/Bundle;)V:GetOnStatusChanged_Ljava_lang_String_ILandroid_os_Bundle_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onMapReady:(Lcom/google/android/gms/maps/GoogleMap;)V:GetOnMapReady_Lcom_google_android_gms_maps_GoogleMap_Handler:Android.Gms.Maps.IOnMapReadyCallbackInvoker, Xamarin.GooglePlayServices.Maps\n" +
-			"n_onClusterClick:(Lcom/google/maps/android/clustering/Cluster;)Z:GetOnClusterClick_Lcom_google_maps_android_clustering_Cluster_Handler:Com.Google.Maps.Android.Clustering.ClusterManager/IOnClusterClickListenerInvoker, GoogleMapsUtilityBinding\n" +
-			"n_onClusterItemClick:(Lcom/google/maps/android/clustering/ClusterItem;)Z:GetOnClusterItemClick_Lcom_google_maps_android_clustering_ClusterItem_Handler:Com.Google.Maps.Android.Clustering.ClusterManager/IOnClusterItemClickListenerInvoker, GoogleMapsUtilityBinding\n" +
 			"";
 		mono.android.Runtime.register ("GMaps.MainActivity, GMaps", MainActivity.class, __md_methods);
 	}
@@ -81,22 +77,6 @@ public class MainActivity
 	}
 
 	private native void n_onMapReady (com.google.android.gms.maps.GoogleMap p0);
-
-
-	public boolean onClusterClick (com.google.maps.android.clustering.Cluster p0)
-	{
-		return n_onClusterClick (p0);
-	}
-
-	private native boolean n_onClusterClick (com.google.maps.android.clustering.Cluster p0);
-
-
-	public boolean onClusterItemClick (com.google.maps.android.clustering.ClusterItem p0)
-	{
-		return n_onClusterItemClick (p0);
-	}
-
-	private native boolean n_onClusterItemClick (com.google.maps.android.clustering.ClusterItem p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

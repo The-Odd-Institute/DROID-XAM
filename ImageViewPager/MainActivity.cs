@@ -29,20 +29,13 @@ namespace ImageViewPager
 
 			viewPager.Adapter = imageAdapter;
      
-
             //Bind the title indicator to the adapter
 			var titleIndicator = FindViewById<CirclePageIndicator>(Resource.Id.pageIndicator);
 			titleIndicator.SetViewPager(viewPager);
    
         }
-
-
-
-  
-
+      
     }
-
-
-
+   
 }
 

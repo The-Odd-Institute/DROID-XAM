@@ -30,9 +30,8 @@ namespace AlertDialog
 
 			FragmentManager.BeginTransaction()
 			               .Add(Resource.Id.fragmentContainer, fragment, "frag")
-			  .SetCustomAnimations(Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out)
-			  // .Show(fragment)
-			  .Commit();
+			               .SetCustomAnimations(Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out)
+			               .Commit();
 
 			fragment.GoToProperty += Fragment_GoToProperty;
          
@@ -43,8 +42,6 @@ namespace AlertDialog
 			System.Diagnostics.Debug.WriteLine(e.PropertyNumber);
 		}
 
-
- 
     }
 }
 

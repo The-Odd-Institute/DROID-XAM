@@ -49,7 +49,6 @@
 /Users/sanjayshah/Documents/Apps/Droid Mini/GMaps/bin/Debug/Mono.Android.pdb
 /Users/sanjayshah/Documents/Apps/Droid Mini/GMaps/obj/Debug/linksrc/GMaps.pdb
 /Users/sanjayshah/Documents/Apps/Droid Mini/GMaps/obj/Debug/linksrc/Mono.Android.pdb
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.csprojResolveAssemblyReference.cache
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll.stamp
@@ -60,13 +59,11 @@
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/XbdMerge/2f4d086a.proguard.stamp
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/XbdMerge/ea5c07c4.proguard.stamp
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.csproj.CoreCompileInputs.cache
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.dll
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.pdb
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.csprojResolveAssemblyReference.cache
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/GMaps.dll
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/GMaps.pdb
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/com.sanjayshah.GMaps.apk
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/com.sanjayshah.GMaps-Signed.apk
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/GoogleMapsUtilityBinding.dll
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/GMaps.GMaps.apk
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/GMaps.GMaps-Signed.apk
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/Newtonsoft.Json.dll
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/Xamarin.Android.Arch.Core.Common.dll
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -85,7 +82,9 @@
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/Xamarin.GooglePlayServices.Tasks.dll
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/bin/Debug/Newtonsoft.Json.xml
-/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/android/bin/com.sanjayshah.GMaps.apk
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.dll
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/GMaps.pdb
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/android/bin/GMaps.GMaps.apk
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/res/layout/main.xml
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/res/values/strings.xml
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/res/mipmap-hdpi/icon.png
@@ -98,3 +97,4 @@
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/R.txt
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/uploadflags.txt
 /Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/linksrc/GMaps.pdb
+/Users/sanjayshah/Documents/Apps/DROID-XAM/GMaps/obj/Debug/linksrc/Mono.Android.pdb

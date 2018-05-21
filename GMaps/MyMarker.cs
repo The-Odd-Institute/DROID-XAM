@@ -12,18 +12,13 @@ using Android.Views;
 using Android.Widget;
 
 using Android.Gms.Maps.Model;
-using Com.Google.Maps.Android.Clustering;
+//using Com.Google.Maps.Android.Clustering;
 
 namespace GMaps
 {
 
-	public class MyMarker : Java.Lang.Object, IClusterItem
+	public class MyMarker : Java.Lang.Object//, IClusterItem
     {
-
-
-		public MyMarker()
-        {
-        }
 
         public LatLng Position { get; set; }
 

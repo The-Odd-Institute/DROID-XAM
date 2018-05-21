@@ -25,7 +25,7 @@ namespace Borders
             FragmentManager.BeginTransaction()
                            .Add(Resource.Id.frameLayout, fragment, "frag")
                            .SetCustomAnimations(Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out)
-              .Commit();
+                           .Commit();
 
    
             Button showABorder = FindViewById<Button>(Resource.Id.showBorder);
@@ -57,9 +57,7 @@ namespace Borders
 				default: break;
 					
 			}
-    
-			    
-
+           
 			count++;
 			
 		}

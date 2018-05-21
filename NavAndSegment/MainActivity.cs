@@ -27,9 +27,7 @@ namespace NavAndSegment
             Window.RequestFeature(WindowFeatures.NoTitle);
 
             SetContentView(Resource.Layout.Main);
-
-
-
+         
             Toolbar topToolbar = FindViewById<Toolbar>(Resource.Id.topToolbar);
             Button backButton = FindViewById<Button>(Resource.Id.backButton);
 
@@ -40,8 +38,7 @@ namespace NavAndSegment
 
 
             CreateSegmentControl();
-
-
+           
         }
 
 
@@ -54,8 +51,7 @@ namespace NavAndSegment
             StartActivity(intent);
 
             OverridePendingTransition(Resource.Animation.activity_slide_from_right, Resource.Animation.activity_slide_to_left);
-
-
+         
         }
 
 
@@ -68,9 +64,7 @@ namespace NavAndSegment
 			mapButton.Checked = true;
 
             mapListRadioGroup.CheckedChange += MapListRadioGroup_CheckedChanged;
-
-
-
+         
         }
 
 
@@ -86,10 +80,7 @@ namespace NavAndSegment
             {
                 tempLabel.Text = "In MapView";
             }
-
          
-   
-
         }
 
     }

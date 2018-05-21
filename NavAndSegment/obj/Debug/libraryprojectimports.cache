@@ -14,16 +14,8 @@
     <Jar>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/8/jl/bin/classes.jar</Jar>
     <Jar>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/9/jl/bin/classes.jar</Jar>
   </Jars>
-  <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/6/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/10/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/11/jl/res</ResolvedResourceDirectory>
-  </ResolvedResourceDirectories>
+  <ResolvedResourceDirectories />
   <ResolvedAssetDirectories />
   <ResolvedEnvironmentFiles />
-  <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/6.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/10.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/sanjayshah/Documents/Apps/DROID-XAM/NavAndSegment/obj/Debug/lp/11.stamp</ResolvedResourceDirectoryStamp>
-  </ResolvedResourceDirectoryStamps>
+  <ResolvedResourceDirectoryStamps />
 </Paths>
